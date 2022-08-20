@@ -6,9 +6,9 @@ function App() {
     <div className={container}>
       <div>
         <h1>Home</h1>
-        <nav>
+        <nav style={{ display: 'flex', flexDirection: 'column' }}>
           <Link to="/">Home</Link>
-          <Link to="badge">Badge</Link>
+          <Link to="flexibleEllipsis">FlexibleEllipsis</Link>
         </nav>
       </div>
     </div>
